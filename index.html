@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Dais Ui CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.5/daisyui.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Tailwindcss CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Remix Icon CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Vegetable Shop</title>
+  </head>
+  <body>
+    <div class="w-full h-full antialiased">
+      <!-- Header Section -->
+      <nav
+        class="h-20 flex container mx-auto lg:px-10 justify-between items-center border-b-2 border-green-600 px-4 py-3 lg:border-none sticky top-0 z-50 backdrop-blur-sm"
+      >
+        <div id="logo">
+          <img src="./c2-assets/logo-header.png" alt="" class="" />
+        </div>
+        <div class="hidden lg:flex items-center gap-x-5">
+          <a
+            href=""
+            class="hover:text-green-600 transition-all duration-300 ease-in-out"
+            >Product</a
+          >
+          <a
+            href=""
+            class="hover:text-green-600 transition-all duration-300 ease-in-out"
+            >Services</a
+          >
+          <a
+            href=""
+            class="hover:text-green-600 transition-all duration-300 ease-in-out"
+            >Contact Us</a
+          >
+        </div>
+        <div class="hidden lg:flex items-center gap-x-4">
+          <div class="flex items-center gap-x-2">
+            <i
+              class="ri-search-2-line text-[26px] cursor-pointer hover:text-green-600 transition-colors"
+            ></i>
+            <i
+              class="ri-shopping-cart-2-line text-[26px] cursor-pointer hover:text-green-600 transition-colors"
+            ></i>
+          </div>
+          <div class="flex gap-x-2 items-center">
+            <button class="btn bg-transparent border-2 border-green-600 w-28">
+              Login
+            </button>
+            <button
+              class="btn bg-[#179800] text-white w-28 hover:bg-green-800 transition-colors duration-300"
+            >
+              Register
+            </button>
+          </div>
+        </div>
+        <div id="menu-icon" class="lg:hidden">
+          <button class="btn w-12 bg-transparent border-none">
+            <i class="ri-menu-line text-3xl text-green-600"></i>
+          </button>
+        </div>
+      </nav>
+      <!-- Hero Section -->
+      <div class="w-full h-full bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+        <div class="container mx-auto lg:px-10">
+          <!-- Hero Section -->
+          <div
+            class="px-4 mt-16 flex flex-col justify-center items-center gap-y-4 lg:mt-20 overflow-x-hidden"
+          >
+            <h1
+              class="text-4xl font-semibold leading-10 text-center px-5 lg:text-6xl lg:px-32 lg:leading-snug"
+            >
+              Freshness
+              <span class="text-green-600"
+                >You Can <br />
+                Count</span
+              >
+              On, Prices You'll Love!
+            </h1>
+            <p
+              class="text-base font-normal text-[#111111] leading-5 text-center px-8 lg:text-xl lg:font-normal lg:leading-6"
+            >
+              Shop your daily essentials at unbeatable prices. From fresh
+              produce to pantry <br />
+              staples, we've got you covered every day!
+            </p>
+            <img
+              class="min-w-[493px] px-5 lg:w-2/3 animate-pulse"
+              src="./c2-assets/hero-vegetables.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
